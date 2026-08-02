@@ -1,7 +1,14 @@
 aid: truemeds
 name: Truemeds
-description: 'Truemeds is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Truemeds is an India-based online pharmacy and digital healthcare platform
+  operated by Intellihealth Solutions that lets consumers order branded and generic
+  prescription and over-the-counter medicines for home delivery across India, typically
+  positioned around savings on genuine medicines, free teleconsultation with doctors,
+  and substitute-medicine recommendations. It runs a consumer web and mobile app experience
+  (order medicines, upload prescriptions, health blog, help center) rather than a public
+  developer API program; no public API documentation, developer portal, OpenAPI, or
+  partner API surface was found during enrichment. Backed by Accel and other investors,
+  it was added to the API Evangelist network as a company profile.'
 url: https://raw.githubusercontent.com/api-evangelist/truemeds/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +16,30 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://assets.truemeds.in/Images/website-assets/logo192.png
 tags:
 - Company
 - Consumer
+- Healthcare
+- Pharmacy
+- Medicine
+- E-commerce
+- Telehealth
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.truemeds.in/
+- type: Blog
+  url: https://www.truemeds.in/blog
+- type: Support
+  url: https://www.truemeds.in/help
+- type: PrivacyPolicy
+  url: https://www.truemeds.in/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.truemeds.in/legal/terms-and-conditions
+- type: Security
+  url: https://www.truemeds.in/security
+- type: VulnerabilityDisclosure
+  url: security/truemeds-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/truemeds-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
