@@ -10,6 +10,9 @@ description: 'Truemeds is an India-based online pharmacy and digital healthcare 
   partner API surface was found during enrichment. Backed by Accel and other investors,
   it was added to the API Evangelist network as a company profile.'
 url: https://raw.githubusercontent.com/api-evangelist/truemeds/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It runs a consumer web and mobile app experience (order medicines, upload prescriptions, health blog, help center) rather than a public developer API program; no public API documentation, developer po"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
