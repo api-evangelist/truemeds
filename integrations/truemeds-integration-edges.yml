@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/truemeds/integrations
+- https://n8n.io/integrations/truemeds/
+- https://composio.dev/toolkits/truemeds
+- https://monid.ai/tools/truemeds
+checked:
+- https://composio.dev/toolkits/truemeds
+- https://monid.ai/tools/truemeds
+- https://n8n.io/integrations/truemeds/
+- https://zapier.com/apps/truemeds/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
